@@ -1,4 +1,3 @@
-const { findOneAndUpdate } = require("../models/PlayerModel");
 const Player = require("../models/PlayerModel");
 exports.getAllPlayers = async (req, res) => {
   try {
